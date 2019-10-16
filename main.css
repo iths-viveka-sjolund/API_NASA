@@ -1,0 +1,21 @@
+body{
+background-color: palevioletred;
+width: 500px;
+}
+
+
+
+/* .prototype{
+    display: none;
+    list-style: none;
+} */
+
+ul{
+    list-style-type: none;
+}
+
+.wrapper{
+    margin: auto;
+    display: flex;
+  
+}
