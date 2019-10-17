@@ -1,19 +1,17 @@
 
+let button1 = document.querySelector(".button1")
 
+button1.addEventListener("click", function() {
+  document.querySelector(".blue").hidden = true;
+  document.querySelector(".red").hidden = false;
+} 
+,false);
 
-function hidden(){ 
-    red.style.display = 'none'; 
-};
+let button2 = document.querySelector(".button2")
 
-let button1 = document.querySelector(".red")
-let button2 = document.querySelector(".blue")
+button2.addEventListener("click", function() {
+  document.querySelector(".red").hidden = true;
+  document.querySelector(".blue").hidden = false;
+} 
+,false);
 
-button1.addEventListener("click", function(){
-    hidden()
-    red() 
-});
-
-button2.addEventListener("click", function(){
-    blue()
-    
-});

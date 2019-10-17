@@ -42,8 +42,26 @@ header{
     align-items: center;
 
 }
+.content2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+}
 
 .description{
+    width: 200px;
+    height: 250px;
+    padding: 25px 25px 50px;
+    overflow: hidden;
+    word-wrap: break-word;
+    overflow: scroll;
+    background-color: rgba(0, 0, 0, 0.53);
+    border-radius: 5px;
+    color: rgb(198, 198, 198);
+}
+
+.description2{
     width: 200px;
     height: 250px;
     padding: 25px 25px 50px;
@@ -63,6 +81,7 @@ img{
 
 
 button{
+    font-size: 1rem;
     width: 100px;
     height: 100px;
     margin: 0 40px;
