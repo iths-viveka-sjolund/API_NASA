@@ -1,41 +1,88 @@
 body{
-background-color: palevioletred;
-
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-.prototype{
+header{
     display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color: rgba(235, 235, 235,0.7);
 }
 
-ul{
-    list-style-type: none;
+.headings{
+    display: flex;
+    align-items: baseline;
+    color: white;
+    margin-left: 20px;
+}
+
+.nasalogo{
+    width: 60px;
+    height: 60px;
+    box-shadow: none;
 }
 
 .wrapper{
-    margin: auto;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('img/milkyway.jpg');
+    width: 800px;
+    height: 600px;
+    background-size: cover, no-repeat; 
+}
+.imagedate{
+    margin-left: 20px;
+
+}
+
+.content{
     display: flex;
-    flex-direction: row;
-    
-  
+    justify-content: space-around;
+    align-items: center;
+
 }
+
+.description{
+    width: 200px;
+    height: 250px;
+    padding: 25px 25px 50px;
+    overflow: hidden;
+    word-wrap: break-word;
+    overflow: scroll;
+    background-color: rgba(0, 0, 0, 0.53);
+    border-radius: 5px;
+    color: rgb(198, 198, 198);
+}
+
 img{
-    width: 400px;
+    height: 325px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.5);
 }
+
 
 button{
     width: 100px;
     height: 100px;
+    margin: 0 40px;
     border-radius: 50%;
-    /* transform: translateY(100); */
+    transform: translateY(-50%);
     border: none;
     cursor: pointer;
+    box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.5);
 
 }
+
 
 
 footer{
     height: 80px;
-    background-color: blanchedalmond;
+    width: 800px;
+    background-color: rgb(61, 33, 65);
+    margin-bottom: -50;
+    display: flex;
+    flex-direction: row;
+    
 }
+

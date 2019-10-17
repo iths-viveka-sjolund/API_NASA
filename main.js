@@ -10,17 +10,19 @@ async function render(){
         description.innerText = planetOfTheDay.explanation
         let img = document.querySelector("img.dagensBild")
         img.src = planetOfTheDay.url
-        // let email = document.querySelector(".email")
-        // let phone = this.container.querySelector(".phone")
-        // phone.innerText = user.phone
+        let date1 = document.querySelector(".imagedate")
+        date1.innerText = planetOfTheDay.date
     }
+    render()
     
-  
+    
+    // let email = document.querySelector(".email")
+    // let phone = this.container.querySelector(".phone")
+    // phone.innerText = user.phone
+
     // for(let item of list){
     //     let newItem = itemPrototype.cloneNode(true)
     //     newItem.classList.remove("prototype")
     //     let p = newItem.querySelector("p")
     //     p.innerText = item.planetary
     //     ul.append(newItem)
-
-render()
